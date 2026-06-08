@@ -22,4 +22,29 @@ body{
         0 0 20px #ff9ecf;
     white-space:nowrap;
     user-select:none;
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#000;
+    overflow:hidden;
+    width:100vw;
+    height:100vh;
+}
+
+.word{
+    position:absolute;
+    color:#ff9ecf;
+    font-family:Arial, sans-serif;
+    font-size:18px;
+    text-shadow:
+        0 0 5px #fff,
+        0 0 10px #ff9ecf,
+        0 0 20px #ff9ecf;
+    white-space:nowrap;
+    user-select:none;
 }
